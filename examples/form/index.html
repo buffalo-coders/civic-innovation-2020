@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Browser Form Example</title>
+    <link rel="stylesheet" href="app.css" />
+    <script type="text/javascript" src="app.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Browser Form Example</h1>
+    </header>
+    <main>
+        <p>An app for sign inspectors to inventory signs in the City right-of-way and log any currently existing
+            unresolved sign issues (missing, damaged, faded, etc.) would allow sign inspectors to create a data point
+            for any and all street signs in the City right-of-way and make note of any existing unresolved issues.
+            Associated data that would be helpful to collect would be: sign type; street address; precise geographic
+            information/coordinates; photo; timestamp; unresolved issue; pole number; type of pole, etc. Having a way to
+            quickly filter all inventoried information by all data types right on the app would be beneficial to field
+            workers and supervisors. Additional functionality would be to dictate notes to a comment field, and
+            auto-populate fields with defined values. Sign crews, traffic engineers, and field inspectors would utilize
+            this app. Users will have access to iPhones, and Android phones and tablets.
+        </p>
+        <hr />
+        <form id="form">
+            <table>
+                <tr>
+                    <td>
+                        <label for="resolved"> Resolved?</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="resolved">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="sign-type">Sign Type</label></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label for="street-address">Street Address</label></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label for="geolocation">Geographic Location</label></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label for="timestamp">Timestamp</label></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label for="pole-type">Pole Type</label></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label for="pole-number">Pole Number</label></td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2020 Jesse Farinacci</p>
+    </footer>
+</body>
+
+</html>
